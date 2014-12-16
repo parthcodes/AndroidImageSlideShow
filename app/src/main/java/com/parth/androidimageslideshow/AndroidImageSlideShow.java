@@ -26,7 +26,7 @@ import java.util.Random;
 public class AndroidImageSlideShow extends Activity {
 
     ViewPager viewPager;
-    public static String imageFetchUrl = "http://pixabay.com/api/?username=parth1991&key=4a4de2723b92a3f0f221&image_type=photo&per_page=200";
+    public static String imageFetchUrl = "http://pixabay.com/api/?username=userName&key=yourKey&image_type=photo&per_page=200";
     public static String[] categories = {"animals","sports", "cars", "bikes", "love", "music", "travel", "religion", "health", "beauty", "emotions",
             "machines", "computers", "buildings", "education", "nature", "people", "kids", "school", "family"};
     public static List<String> imagesUrl = new ArrayList<String>();
